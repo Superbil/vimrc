@@ -2,9 +2,9 @@ vgod's vimrc
 ============
 Author: Tsung-Hsiang (Sean) Chang <vgod@vgod.tw>
 
-Fork me on GITHUB  https://github.com/Superbil/vimrc.
-
 Modifier: Superbil
+
+Fork me on GITHUB  https://github.com/Superbil/vimrc.git
 
 HOW TO INSTALL
 --------------
