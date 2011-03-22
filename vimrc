@@ -241,7 +241,7 @@ autocmd BufNewFile,BufRead *.sass             set ft=sass.css
 set encoding=utf-8                                  
 set termencoding=utf-8
 set fileencoding=utf-8
-set fileencodings=ucs-bom,utf-8,big5,latin1
+set fileencodings=ucs-bom,utf-8,big5,bgk,euc-jp,latin1
 
 fun! ViewUTF8()
 	set encoding=utf-8                                  
