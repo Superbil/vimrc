@@ -4,6 +4,8 @@ Author: Tsung-Hsiang (Sean) Chang <vgod@vgod.tw>
 
 Fork me on GITHUB  https://github.com/Superbil/vimrc.
 
+Modifier: Superbil
+
 HOW TO INSTALL
 --------------
 
