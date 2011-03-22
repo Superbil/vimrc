@@ -351,3 +351,7 @@ let g:CommandTMaxHeight = 15
 
 " --- SuperTab
 let g:SuperTabDefaultCompletionType = "context"
+
+" --- taglist
+let Tlist_Use_Right_Window=1
+let Tlist_File_Fold_Auto_Close=1
