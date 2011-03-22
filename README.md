@@ -2,14 +2,14 @@ vgod's vimrc
 ============
 Author: Tsung-Hsiang (Sean) Chang <vgod@vgod.tw>
 
-Fork me on GITHUB  https://github.com/vgod/vimrc.
+Fork me on GITHUB  https://github.com/Superbil/vimrc.
 
 HOW TO INSTALL
 --------------
 
 1. Check out from github
 
-        $ git clone https://github.com/vgod/vimrc ~/.vim
+        $ git clone https://github.com/Superbil/vimrc ~/.vim
         $ cd ~/.vim
         $ git submodule update --init
 
