@@ -77,6 +77,7 @@ PLUGINS
 
 * [JavaComplete](http://www.vim.org/scripts/script.php?script_id=1785): Java Omni-completion.
 
+* [Taglist](https://github.com/vim-scripts/taglist.vim): Source code browser.
 
 Language specific supports
 --------------------------
