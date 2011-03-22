@@ -24,8 +24,10 @@ filetype plugin on    " Enable filetype-specific plugins
 
 
 " auto reload vimrc when editing it
-autocmd! bufwritepost .vimrc source ~/.vimrc
-
+autocmd! Bufwritepost .vimrc source %
+autocmd! BufWritePost .gvimrc source %
+autocmd! BufWritePost _vimrc source %
+autocmd! BufWritePost _gvimrc source %
 
 syntax on		" syntax highlight
 set hlsearch		" search highlighting
