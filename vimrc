@@ -67,6 +67,16 @@ set tm=500
 "}      							
 
 " status line {
+" %1* -> User1's highlight, %2*->User2's highlight
+" =   -> Separation point between left and right aligned items.
+" <   -> Where to truncate line if too long.  Default is at the start.
+highlight User1 ctermfg=red
+highlight User2 term=underline cterm=underline ctermfg=green
+highlight User3 term=underline cterm=underline ctermfg=yellow
+highlight User4 term=underline cterm=underline ctermfg=white
+highlight User5 ctermfg=cyan
+highlight User6 ctermfg=white
+
 set laststatus=2
 set statusline=\ %{HasPaste()}%<%-15.25(%f%)%m%r%h\ %w\ \ 
 set statusline+=\ \ \ [%{&ff}/%Y] 
