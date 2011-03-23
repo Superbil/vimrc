@@ -201,8 +201,6 @@ map <C-D> <C-E><C-E><C-E><C-E><C-E><C-E><C-E><C-E><C-E><C-E><C-E><C-E><C-E><C-E>
 "}
 " HexMode mode {
    nnoremap <leader>h :Hexmode<CR>
-   inoremap <leader> <Esc>:Hexmode<CR>
-   vnoremap <leader> :<C-U>Hexmode<CR>
    " ex command for toggling hex mode - define mapping if desired
    command -bar Hexmode call ToggleHex()
    " helper function to toggle hex mode
