@@ -33,8 +33,16 @@ autocmd! BufWritePost _gvimrc source %
 syntax on		" syntax highlight
 set hlsearch		" search highlighting
 
+if has("gui_running")	" GUI color and font settings
+  set guifont=Osaka-Mono:h20
+  set background=dark 
+  set t_Co=256          " 256 color mode
+  set cursorline        " highlight current line
+  colors moria
+else
 " terminal color settings
-colors vgod
+  colors vgod
+endif
 
 set clipboard=unnamed	" yank to the system register (*) by default
 set showmatch		" Cursor shows matching ) and }
