@@ -43,3 +43,6 @@
 [submodule "bundle/taglist"]
 	path = bundle/taglist
 	url = https://github.com/vim-scripts/taglist.vim.git
+[submodule "bundle/scala-vim-support"]
+	path = bundle/scala-vim-support
+	url = https://github.com/rosstimson/scala-vim-support.git
