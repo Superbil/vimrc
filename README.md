@@ -24,6 +24,8 @@ HOW TO INSTALL
         $ cd .vim/bundle/command-t/ruby/command-t
         $ ruby extconf.rb
         $ make
+4. Clean dirty submodule
+        $ git config --add diff.ignoreSubmodules dirty 
   
 UPGRADE PLUGIN BUNDLES
 ----------------------
