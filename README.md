@@ -24,6 +24,8 @@ HOW TO INSTALL
         $ cd .vim/bundle/command-t/ruby/command-t
         $ ruby extconf.rb
         $ make
+4. (Optional, if you don't like dirty submodule) Clean dirty submodule
+        $ git config --add diff.ignoreSubmodules dirty 
   
 UPGRADE PLUGIN BUNDLES
 ----------------------
@@ -43,6 +45,12 @@ PLUGINS
 -------
 
 * [Pathogen](http://www.vim.org/scripts/script.php?script_id=2332): Pathogen let us install a plugin as a bundle in ~/.vim/bundle seprately.
+
+* [Nerd Tree](http://www.vim.org/scripts/script.php?script_id=1658): A tree explorer plugin for navigating the filesystem.
+
+  Useful commands:
+  * `:Bookmark [name]` - bookmark any directory as name
+  * `:NERDTree [name]` - open the bookmark [name] in Nerd Tree
 
 * [AutoClose](http://www.vim.org/scripts/script.php?script_id=1849):  Inserts matching bracket, paren, brace or quote.
 
@@ -78,6 +86,8 @@ PLUGINS
 * [JavaComplete](http://www.vim.org/scripts/script.php?script_id=1785): Java Omni-completion.
 
 * [Taglist](https://github.com/vim-scripts/taglist.vim): Source code browser.
+
+* [vim-fugitive](https://github.com/vim-scripts/taglist.vim): Git tool in vim
 
 Language specific supports
 --------------------------
