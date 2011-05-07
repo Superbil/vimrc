@@ -87,6 +87,8 @@ PLUGINS
 
 * [Taglist](https://github.com/vim-scripts/taglist.vim): Source code browser.
 
+* [vim-fugitive](https://github.com/vim-scripts/taglist.vim): Git tool in vim
+
 Language specific supports
 --------------------------
 
