@@ -60,6 +60,7 @@ set copyindent		" copy the previous indentation on autoindenting
 set ignorecase		" ignore case when searching
 set smartcase		" ignore case if search pattern is all lowercase,case-sensitive otherwise
 set smarttab		" insert tabs on the start of a line according to context
+set gdefault            " applies substitutions globally on lines.
 
 " disable sound on errors
 set noerrorbells
