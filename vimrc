@@ -133,6 +133,12 @@ endfun
 let mapleader=","
 let g:mapleader=","
 
+"replace ; to : on normal map
+nmap ; :
+
+"quicker escaping
+imap jj <ESC>
+
 "replace the current word in all opened buffers
 map <leader>r :call Replace()<CR>
 
