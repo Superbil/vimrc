@@ -204,10 +204,6 @@ cmap cd. lcd %:p:h
    inoremap <C-u>5 <esc>yypVr^A
 "}
 
-" Smooth scrolling {
-map <C-U> <C-Y><C-Y><C-Y><C-Y><C-Y><C-Y><C-Y><C-Y><C-Y><C-Y><C-Y><C-Y><C-Y><C-Y><C-Y><C-Y>
-map <C-D> <C-E><C-E><C-E><C-E><C-E><C-E><C-E><C-E><C-E><C-E><C-E><C-E><C-E><C-E><C-E><C-E>
-"}
 " HexMode mode {
    nnoremap <leader>h :Hexmode<CR>
    " ex command for toggling hex mode - define mapping if desired
