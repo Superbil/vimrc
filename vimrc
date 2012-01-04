@@ -34,7 +34,7 @@ syntax on		" syntax highlight
 set hlsearch		" search highlighting
 
 if has("gui_running")	" GUI color and font settings
-  set guifont=Osaka-Mono:h20
+  set guifont=Menlo-Regular:h12
   set background=dark 
   set t_Co=256          " 256 color mode
   set cursorline        " highlight current line
@@ -60,6 +60,7 @@ set copyindent		" copy the previous indentation on autoindenting
 set ignorecase		" ignore case when searching
 set smartcase		" ignore case if search pattern is all lowercase,case-sensitive otherwise
 set smarttab		" insert tabs on the start of a line according to context
+set gdefault            " applies substitutions globally on lines.
 
 " disable sound on errors
 set noerrorbells
@@ -132,6 +133,12 @@ endfun
 let mapleader=","
 let g:mapleader=","
 
+"replace ; to : on normal map
+nmap ; :
+
+"quicker escaping
+imap jj <ESC>
+
 "replace the current word in all opened buffers
 map <leader>r :call Replace()<CR>
 
@@ -203,10 +210,6 @@ cmap cd. lcd %:p:h
    inoremap <C-u>5 <esc>yypVr^A
 "}
 
-" Smooth scrolling {
-map <C-U> <C-Y><C-Y><C-Y><C-Y><C-Y><C-Y><C-Y><C-Y><C-Y><C-Y><C-Y><C-Y><C-Y><C-Y><C-Y><C-Y>
-map <C-D> <C-E><C-E><C-E><C-E><C-E><C-E><C-E><C-E><C-E><C-E><C-E><C-E><C-E><C-E><C-E><C-E>
-"}
 " HexMode mode {
    nnoremap <leader>h :Hexmode<CR>
    " ex command for toggling hex mode - define mapping if desired
