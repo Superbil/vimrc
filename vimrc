@@ -5,43 +5,42 @@
 
 " read https://github.com/Superbil/vimrc/blob/master/README.md for more info
 
-" Vundle
-set nocompatible               " be iMproved
-filetype off                   " required!
+" Vundle Manager{
+   set nocompatible               " be iMproved
+   filetype off                   " required!
 
-set rtp+=~/.vim/bundle/vundle/
-call vundle#rc()
+   set rtp+=~/.vim/bundle/vundle/
+   call vundle#rc()
 
-" let Vundle manage Vundle
-" required! 
-Bundle 'gmarik/vundle'
+   " let Vundle manage Vundle
+   " required! 
+   Bundle 'gmarik/vundle'
 
-" original repos on github
-Bundle 'Townk/vim-autoclose'
-Bundle 'tpope/vim-surround'
-Bundle 'Twinside/vim-cuteErrorMarker'
-Bundle 'msanders/snipmate.vim'
-Bundle 'sukima/xmledit'
-Bundle 'ervandew/supertab'
-Bundle 'vgod/scala-vim-support'
-Bundle 'scrooloose/nerdtree'
-Bundle 'scrooloose/nerdcommenter'
-Bundle 'tpope/vim-fugitive'
+   " original repos on github
+   Bundle 'Townk/vim-autoclose'
+   Bundle 'tpope/vim-surround'
+   Bundle 'Twinside/vim-cuteErrorMarker'
+   Bundle 'msanders/snipmate.vim'
+   Bundle 'sukima/xmledit'
+   Bundle 'ervandew/supertab'
+   Bundle 'vgod/scala-vim-support'
+   Bundle 'scrooloose/nerdtree'
+   Bundle 'scrooloose/nerdcommenter'
+   Bundle 'tpope/vim-fugitive'
 
-" vim-scripts repos
-Bundle 'taglist.vim'
-Bundle 'YankRing.vim'
-Bundle 'matchit.zip'
-Bundle 'VisIncr'
-Bundle 'OmniCppComplete'
-Bundle 'javacomplete'
-"Bundle 'Smart-Parentheses'
-"Bundle 'FuzzyFinder'
+   " vim-scripts repos
+   Bundle 'taglist.vim'
+   Bundle 'YankRing.vim'
+   Bundle 'matchit.zip'
+   Bundle 'VisIncr'
+   Bundle 'OmniCppComplete'
+   Bundle 'javacomplete'
+   "Bundle 'Smart-Parentheses'
+   "Bundle 'FuzzyFinder'
 
-" non github repos
-Bundle 'git://git.wincent.com/command-t.git'
-
-filetype plugin indent on     " required! 
+   " non github repos
+   Bundle 'git://git.wincent.com/command-t.git'
+"}
 
 " For pathogen.vim: auto load all plugins in .vim/bundle
 "call pathogen#runtime_append_all_bundles()
